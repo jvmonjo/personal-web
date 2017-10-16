@@ -109,7 +109,7 @@
     }
   }
   
-  @media(max-width:960px){
+  @media(max-width:580px){
     .container{
       padding-right:3rem;
       padding-left:3rem;
