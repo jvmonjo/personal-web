@@ -48,8 +48,8 @@
     left:0;
     width:100vw;
     z-index:1;
-    background:#225470;
-    opacity:0.85;
+    background:#79552D;
+    opacity:0.90;
   }
   
   .header-content{
@@ -98,6 +98,12 @@
     animation: blink-animation 1s steps(5, start) infinite;
     -webkit-animation: blink-animation 1s steps(5, start) infinite;
   }
+
+  .logo {
+    width: 500px;
+    height: auto;
+  }
+
   @keyframes blink-animation {
     to {
       visibility: hidden;
@@ -113,6 +119,10 @@
     .container{
       padding-right:3rem;
       padding-left:3rem;
+    }
+    .logo {
+      width: 300px;
+      height: auto;
     }
     .header-content h1{
       font-size:30px;
